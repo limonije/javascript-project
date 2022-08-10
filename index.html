@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Toggle</title>
+    <script defer src="scriptbonus.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <img class="btn-toggle-nav" src="hamburger_menu.png" />
+      <div class="nav-sidebar">
+        <ul class="menu">
+          <li class="menu-item, grey">
+            <input type="radio" name="colors" value="grey" checked />Home
+          </li>
+          <li class="menu-item, red">
+            <input type="radio" name="colors" value="red" />Red
+          </li>
+          <li class="menu-item, orange">
+            <input type="radio" name="colors" value="orange" />Orange
+          </li>
+          <li class="menu-item, purple">
+            <input type="radio" name="colors" value="purple" />Purple
+          </li>
+          <li class="menu-item, green">
+            <input type="radio" name="colors" value="green" />Green
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <h1>Color Toggle</h1>
+      <h2 class="sub-title">You picked the color:</h2>
+      <h2 id="output"></h2>
+      <h3>
+        Use the menu or press a key from 1 to 5 to change the color of the
+        background
+      </h3>
+      <h3>Key 1 is Grey</h3>
+      <h3>Key 2 is Red</h3>
+      <h3>Key 3 is Orange</h3>
+      <h3>Key 4 is Purple</h3>
+      <h3>Key 5 is Green</h3>
+    </main>
+  </body>
+</html>

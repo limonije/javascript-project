@@ -1,0 +1,109 @@
+body {
+    background-color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+}
+
+.grey-background {
+    background-color: #d9d9d9;
+}
+.red-background {
+    background-color: #f73600;
+}
+.orange-background {
+    background-color: #f9ac00;
+}   
+.purple-background {
+    background-color: #952b8f;
+} 
+.green-background {
+    background-color: #308e02;
+} 
+
+
+.btn-toggle-nav {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 0;
+    padding: 0;
+    position: fixed;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    transform: translateX(-200px);
+    transition: transform 1s;
+    padding-top: 60px;
+    padding-left: 0;
+}
+
+.showMenu {
+    transform: translateX(0);    
+}
+
+.nav-sidebar ul li {
+    list-style: none;
+    line-height: 60px;
+    padding-left: 15px;
+    border: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    border-left: 0;
+}
+
+.grey {
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #d9d9d9;
+}
+
+.red {
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #f73600;
+}
+
+.orange {
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #f9ac00;
+}
+
+.purple {
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color:#952b8f;
+}
+
+.green {
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #308e02;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    padding-top: 100px;
+}
+
+h3 {
+    text-align: center;
+}
+
